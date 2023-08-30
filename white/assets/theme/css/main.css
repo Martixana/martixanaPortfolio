@@ -1,0 +1,296 @@
+/*Box Border Color - "Lets make Magic"*/
+.box-line{
+	border-color: #009970;
+}
+/*JS Word Animation*/
+#animation{
+	color:#009970;
+}
+/*Fontawesome Icons*/
+.fa{
+	color:#009970;
+	font-size: large;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+/*Opacity of picture*/
+.my-profile .my-pict .overfly {
+    background: rgba(255, 255, 255, 0.6);
+}
+/*Greeting on Picture*/
+
+.my-profile .my-pict .overfly .text-botttom{
+	text-align: left;
+}
+
+h3 {
+    letter-spacing: 2px;
+    font-size: 1.3em;
+}
+    
+/* Navbar*/
+.col-md-6 {
+	text-align: center;
+}
+.menu-area .main-nav >li > a:hover {
+    color:#009970;
+    }
+    
+.menu-area.nav-white-bg .main-nav > li > a:hover {
+    color: #009970;
+	}
+
+/*Intro Text*/
+#intro_text{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	margin: 45px;
+	border-style: solid;
+	border-width: 3px;
+	border-color:#009970;
+	text-align: justify;
+}
+
+/* Black Box: Contact Info & Social Media*/
+.bg-dark{
+ font-size: 12px;
+}
+
+.inner-text > h5{
+	font-size: medium;
+}
+.sm_profiles{
+	position: relative;
+	top: -45px;
+}
+#gameFace{
+	margin-left: 20px;
+}
+#contact_ttl{
+	padding-left: 40px;
+}
+.xtra_social{
+	text-align: center;
+}
+#email{
+	color:#ebebeb;
+}
+
+.my-profile .my-desc .inner-text {
+	display:inline-block;
+    max-width: 585px;
+    padding:20px;
+    }
+
+/*Skills*/
+
+.container-medium {
+    max-width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    }
+
+#skills, .list-education{
+	z-index: 4;
+	background-color: white;
+}
+
+
+/*testimonials*/
+
+.lrgQuote{
+	font-style: normal;
+	font-size:medium;
+	min-height: 260px;
+}
+#quote1, #quote2, #quote3{
+	font-style: italic;
+	font-size: large;
+	letter-spacing: 1.6px;
+	line-height: 1.3;
+	color: #1a1a1a;
+}
+
+/*Portfolio*/
+
+.box-work {
+    margin-bottom: 25px;
+   	width:390px;
+   	min-height:195px;
+}
+
+
+/*****MEDIA QUERIES********/
+
+@media screen and (max-width:1260px){
+	.inner-text > h5 {
+    font-size: 13px;
+    width: 80%;
+    margin: auto;
+}
+	.bg-dark {
+    text-align: center;
+}
+	#contact_ttl {
+    padding-left: 5px;
+}
+	.my-profile .my-desc .inner-text {
+    padding-left: 10px;
+}
+}
+
+@media screen and (max-width: 1170px){
+	.box-work {
+		margin-left: auto;
+		margin-right: auto;
+    	margin-bottom: 10px;
+    	width: 95%;
+    	height: 80%;   
+	}
+}
+@media screen and (max-width: 1100px){
+	.my-profile .my-desc .inner-text {
+	display:block;
+	text-align: center;
+	padding-top:5px;
+	padding-bottom:5px;
+    }
+    .sm_profiles {
+    position: relative;
+    top: 0px;
+}
+ @media screen and (max-width: 880px){
+ 	#intro_text{
+		width: 85%;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:30px;
+		margin-bottom: 30px;
+	}
+ 	#gameFace {
+    	width:50%;
+    	margin: auto;
+    	text-align: center;
+}
+	.inner-text{
+		width:50%;
+		margin:auto;
+		text-align: center;
+	}
+ }    
+
+@media screen and (max-width: 640px){
+	#intro_text{
+		width:85%;
+		text-align:center;
+		margin: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	#gameFace {
+    	margin: auto;
+    	text-align: center;
+    }
+}
+
+@media screen and (max-width: 638px){
+
+	#intro_text{
+		width:85%;
+		text-align:center;
+		margin: auto;
+}
+	.my-profile .my-desc .inner-text{
+  	width: 100%;
+}
+	.sm_profiles{
+	top: 0px
+}
+	#gameFace{
+	margin-left:0px;
+}
+	#contact_ttl{
+	padding-left: 0px;
+}
+}
+
+
+@media screen and (max-width: 596px){
+	.carousel-inner{
+		max-width:95%;
+	}
+}
+@media screen and (max-width:565px){
+	.largQuote{
+		min-height:300px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	#intro_text{
+		width: 85%;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:30px;
+		margin-bottom: 30px;
+	}
+	.lrgQuote{
+		font-size: 14px;
+	}
+	.my-profile .my-pict .overfly .text-botttom {
+    	text-align: center;
+    }
+    .box-testimonial{
+    	width:80%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	font-size: 90%;
+    	min-height: 485px;
+    }
+    #quote1, #quote2, #quote3 {
+		font-size: 60%;
+	}
+}
+
+@media screen and (max-width: 450px){
+	#gameFace {
+    	width:50%;
+    	margin: auto;
+    	padding-bottom: 20px;
+    	text-align: center;
+    }
+    #contact_section{
+    	padding-bottom: 20px;
+    }
+	.box-testimonial{
+    	width:80%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	font-size: 90%;
+    	min-height: 440px;
+    }
+	#quote1, #quote2, #quote3 {
+		display: none;
+	}
+	.box-work {
+		margin-left: auto;
+		margin-right: auto;
+    	margin-bottom: 10px;
+    	width: 90%;   
+	}
+}
+@media screen and (max-width: 400px){
+	#quote1, #quote2, #quote3 {
+		display: none;
+	}
+}
+@media screen and (max-width: 350px){
+	#quote1, #quote2, #quote3 {
+		display: none;
+	}
+	.lrgQuote{
+		min-height: 300px;
+	}
+}
