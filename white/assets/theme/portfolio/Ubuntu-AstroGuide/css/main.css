@@ -1,0 +1,64 @@
+
+.navbar-brand{
+	font-weight: lighter;
+	font-size: 160%;
+}
+.navbar-brand>span{
+	font-weight: bold;
+	font-size: 140%;
+}
+.navbar-right{
+	font-size: 120%;
+}
+.intro-message>h3{
+	font-size: 145%;
+}
+
+.intro-message>h3>span{
+	font-style: italic;
+	font-weight: lighter;
+	padding: 2px;
+}
+.btn{
+	border-radius: 50% 50%;
+}
+/*Figure out how to make font bolder or use different font*/
+.section-heading{
+	font-weight: 900;
+}
+
+.lead{
+	font-style: italic;
+	font-weight: lighter;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+}
+img{
+	border-radius: 3%;
+	max-width: 475px;
+}
+
+/*Dropdown window*/
+
+#mySelect{
+	padding-bottom: 5px;
+	margin-bottom: 40px;
+}
+
+/*Your Sign*/
+
+#yourSign{
+	font-size: 22px;
+	font-weight: lighter;
+}
+#yourSign > span{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 26px;
+}
+@media only screen and (max-with:500px){
+  img{
+	max-width: 95%;	
+	max-height: 355px;
+}
+

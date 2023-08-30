@@ -1,0 +1,259 @@
+
+
+
+
+
+/*  CSS Document                             */
+
+
+
+
+body { 
+	margin: 0; 
+	padding: 0; 
+	background-color:#403f40; 
+	color: #fff; 
+	font-family:"Teko", sans-serif; 
+}
+
+/*Constructing flexboxes to form 3 columns. Main container as wrapper*/
+#main-container{
+background-color: #092f6e
+ min-height: 637px;
+ margin: 0px;
+ padding:0px;
+ display: flex;
+ flex-direction: row;
+}
+
+/*Column 1*/
+ #navigation{
+    /*border: 1px solid #8888bb;
+    border-radius: 7pt;*/
+    margin: 130px 18px 0px 18px;
+    flex: 1 6 20%;
+    order: 1;
+}
+.column-title{
+	text-align: center;
+	color: #6FB5F8;
+	font-size: 1.3em;
+	letter-spacing: 1px;
+}
+#electionsFeed{
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+/*Column 2*/
+#election-Countdown{
+	font-size:16px;
+	font-family: 'Teko', sans-serif;
+	width:500px;
+	margin: 25px auto;
+	padding-top: 0px;
+	/*border: 1px solid rgba (255, 255, 255, .2);*/
+	background: #092f6e url(../img/vote-small.jpg) no-repeat center bottom;
+	min-height: 575px;
+	flex: 1 3 60%;
+    order: 2;
+}
+
+#election-Countdown .heading {
+	background-color: #403f40;
+	padding: 0px 0px 0px 0px;
+	margin: 40px 0 px 30px 0px;
+}
+
+ #election-Countdown h1{
+	font-size: 4.2em;
+	color: ffffff;
+	text-transform: uppercase;
+	font-weight:300;
+	line-height: 70px;
+	margin: 0px 0px 0px -5px;
+	padding-bottom: -2px;
+	text-align: center;
+}
+
+#election-Countdown h2 {
+	font-size: 1.5em;
+	color: #6fb5f8;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 18px;
+	margin-top: 0px;
+	padding-top: 5px;
+	text-align: center;
+	letter-spacing: 9px;
+	text-decoration: underline;
+}
+
+#election-Countdown .my-countdown .countdown-row {
+	display: block;
+	text-align: center;
+}
+#election-Countdown .my-countdown .countdown-section{
+	display: inline-block;
+	width: 95px;
+	margin-top: 180px;
+}
+
+#election-Countdown .my-countdown .countdown-amount{
+	display: block;
+	color: #ffffff;
+	font-size: 4.6em;
+	line-height: 55px;
+	color:#051837;
+}
+#election-Countdown .my-countdown .countdown-period{
+	color: #6fb5f8; 
+	font-size: 1.4em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #1366ec;
+}
+
+/*Column 3*/
+ #aside {
+ 	margin: 130px 18px 0px 18px;
+    flex: 1 6 20%;
+    order: 3;
+    }
+
+ #aside >div>ul>li>a{
+ 	color: #fff;
+ 	text-decoration: none;
+ 	letter-spacing: 2px;
+ }
+
+ #aside>div>ul{
+ 	margin-top: 50px;
+ }
+
+
+@media screen and (max-width: 780px){
+
+	#main-container{
+		flex-direction: column;
+	}
+
+	/*Column 1*/
+ 	#navigation{
+    margin: 70px 0px 0px 0px;
+    text-align: center;
+}
+	#timeOfDay{
+	font-size: 1.8em;
+	font-weight: lighter;
+	margin: 0px 10px 50px 10px;
+	border: 5px solid #6fb5f8;
+	border-radius: 5px;
+
+	}
+	#electionsFeed{
+	margin-left: 0px;
+	padding-bottom: 50px;
+}
+	#election-Countdown{
+	font-size: 12px;
+	width: 300px;
+	min-height: 465px;
+	background: #092f6e url(../img/vote-small.jpg) no-repeat center;
+	background-size: 400px auto;
+	}
+	#election-Countdown .heading {
+	padding: 12px 0px 24px 0px;
+	margin-bottom: 20px;
+	}
+	#election-Countdown h1 {
+		line-height: 40px;
+		font-size: 3.7em;
+	}
+	#election-Countdown h2 {
+		font-size: 2em;
+		line-height: 50px;
+		letter-spacing: 5px;
+	}
+	#election-Countdown .my-countdown .countdown-section{
+		width: 68px;
+		padding-top: 15px;
+	}
+	#election-Countdown .my-countdown .countdown-amount{
+	color: #ffffff;
+	}
+	#election-Countdown .my-countdown .countdown-period{
+	color: #6fb5f8; 	
+	}
+	#aside {
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

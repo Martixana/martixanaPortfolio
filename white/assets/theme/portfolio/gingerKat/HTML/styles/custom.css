@@ -1,0 +1,93 @@
+/*GINGERKAT LOGO*/
+ #small{
+ 	margin-top: -175px;
+ }
+
+/*ICONS*/
+.fa {
+	color: #bd3e0f;
+}
+.icon-b{
+	/*color: #edab78;*/
+	color: #fff;
+}
+/*NAVIGATION ICON*/
+.main-nav .btn-nav {
+    color: #00ffe1;
+}
+/*SOCIAL MEDIA ICONS*/
+.social-nav {
+    padding-bottom: 70px;
+    margin-left: 0px;
+}
+.intro .fa {
+    color:#fff;
+    font-size: 20px;
+   }
+
+/*SECTION SEPARATORs*/
+ .section-bg-overlay .separator{
+	color:#00ffe1;
+}
+/*SECTION SEPARATOR: Big Black Section*/
+.section-bg-dark .separator{
+	color:#00ffe1;
+}
+
+/*HEADER SECTION*/
+h1 .name {
+    font: 0.7em / 1 Nothing You Could Do, cursive;
+    font-weight: 900;
+    color: #bd3e0f;
+}
+
+/*SERVICES*/
+div.row.services{
+	margin-left: 250px;
+	margin-top:100px;
+
+}
+#private {
+	color: #f7d06e;
+}
+#proBono{
+	color: #00ffe1;
+}
+#corporate{
+	color:#bd3e0f;
+}
+
+/*ABOUT ME*/
+#bold{
+  font-size: 1.1em;
+  font-weight:900;
+}
+
+p{
+	background-color:rgba(189, 62, 15, 0.8); 
+	padding: 15px;
+	border-radius: 7px;
+	line-height: 2.5em;
+	letter-spacing: 2px;
+}
+
+/*Music*/
+
+.jukebox{
+	margin-top: 80px;
+	margin-right: 5px;
+	display: inline-block;
+	text-align: center;
+}
+
+section#projects.section.section-bg-light.section-top-fall.section-bottom-fall.bottomTri{
+	height: 100px;
+}
+
+@media screen and (max-width: 830px) {
+	div.row.services{
+	margin-left: 0px;
+	text-align: center;
+	margin-top:100px;
+	}
+
